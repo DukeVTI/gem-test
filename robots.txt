@@ -1,0 +1,18 @@
+# robots.txt
+User-agent: *
+Allow: /
+Sitemap: https://dreamswift.vercel.app/sitemap.xml
+
+# Common web3 paths protection
+Disallow: /api/
+Disallow: /ipfs/
+Disallow: /assets/metadata/
+Disallow: /admin/
+Disallow: /dashboard/private/
+Disallow: /*?wallet=*
+Disallow: /*?address=*
+
+# Allow main content indexing
+Allow: /content/
+Allow: /about/
+Allow: /experience/
