@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 import App from './App'
-import ModernCyberTech from './Jimmy/jimmy'
+/* import ModernCyberTech from './Jimmy/jimmy' */
 import ModernCyberTechV2 from './Jimmy/Jimmy1'
 
 
